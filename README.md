@@ -2,10 +2,10 @@
 
 ![Preview](assets/preview.png)
 
-A light Omarchy theme built from the colours of two Audi quattro race cars:
-a white background, anthracite as foreground, and Audi Sport red as the single
-saturated accent. Every other hue is desaturated so the red stays the leading
-colour.
+A light Omarchy theme built from the colours of the Audi quattro IMSA GTO and
+the Audi Sport quattro: a white background, anthracite as foreground, and
+Audi Sport red as the single saturated accent. Every other hue is desaturated
+so the red stays the leading colour.
 
 The dark counterpart is
 [omarchy-quattro-theme](https://github.com/AlexZeitler/omarchy-quattro-theme).
@@ -20,7 +20,7 @@ omarchy theme install https://github.com/AlexZeitler/omarchy-quattro-light-theme
 
 | Role       | Colour    | Source in the photographs |
 |------------|-----------|---------------------------|
-| Background | `#FFFFFF` | white, no source          |
+| Background | `#FFFFFF` | body panels in the light  |
 | Surfaces   | `#DCE4E5` | BBS wheels                |
 | Foreground | `#1E1F24` | anthracite of the livery  |
 | Accent     | `#C81017` | Audi Sport red            |

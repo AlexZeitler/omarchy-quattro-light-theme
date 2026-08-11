@@ -1,8 +1,8 @@
 # Quattro Light Theme
 
-A light colour theme built from the colours of two Audi quattro race cars:
-a cool grey background taken from the body panels, anthracite as foreground,
-and Audi Sport red as the single saturated accent.
+A light colour theme built from the colours of the Audi quattro IMSA GTO and
+the Audi Sport quattro: a white background, anthracite as foreground, and
+Audi Sport red as the single saturated accent.
 
 The theme is part of the
 [Omarchy Quattro Light theme](https://github.com/AlexZeitler/omarchy-quattro-light-theme),
