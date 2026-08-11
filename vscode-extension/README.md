@@ -1,7 +1,7 @@
 # Quattro Light Theme
 
-A light colour theme built from the colours of the Audi quattro IMSA GTO and
-the Audi Sport quattro: a white background, anthracite as foreground, and
+A light colour theme built from the colours of the Audi 90 quattro IMSA GTO
+and the Audi Sport quattro: a white background, anthracite as foreground, and
 Audi Sport red as the single saturated accent.
 
 The theme is part of the

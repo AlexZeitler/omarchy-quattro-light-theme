@@ -2,8 +2,8 @@
 
 ![Preview](assets/preview.png)
 
-A light Omarchy theme built from the colours of the Audi quattro IMSA GTO and
-the Audi Sport quattro: a white background, anthracite as foreground, and
+A light Omarchy theme built from the colours of the Audi 90 quattro IMSA GTO
+and the Audi Sport quattro: a white background, anthracite as foreground, and
 Audi Sport red as the single saturated accent. Every other hue is desaturated
 so the red stays the leading colour.
 
@@ -15,6 +15,18 @@ The dark counterpart is
 ```bash
 omarchy theme install https://github.com/AlexZeitler/omarchy-quattro-light-theme
 ```
+
+## Wallpapers
+
+Click a thumbnail to open the wallpaper in full resolution.
+
+### Audi 90 quattro IMSA GTO
+
+[![Audi 90 quattro IMSA GTO](assets/audi-90-imsa-gto-thumb.jpg)](backgrounds/audi%2090%20quattro%20imsa%20gto.jpg)
+
+### Audi Sport quattro
+
+[![Audi Sport quattro](assets/audi-sport-quattro-thumb.jpg)](backgrounds/audi%20sport%20quattro.png)
 
 ## Palette
 
@@ -32,18 +44,6 @@ omarchy theme install https://github.com/AlexZeitler/omarchy-quattro-light-theme
 
 The Audi Sport red is not an approximation. Measured on the rear panel of the
 Sport quattro, the paint reads `#CB0214`.
-
-## Wallpapers
-
-Click a thumbnail to open the wallpaper in full resolution.
-
-### Audi 90 quattro IMSA GTO
-
-[![Audi 90 quattro IMSA GTO](assets/audi-90-imsa-gto-thumb.jpg)](backgrounds/audi%2090%20quattro%20imsa%20gto.jpg)
-
-### Audi Sport quattro
-
-[![Audi Sport quattro](assets/audi-sport-quattro-thumb.jpg)](backgrounds/audi%20sport%20quattro.png)
 
 ## VS Code
 
