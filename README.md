@@ -3,9 +3,9 @@
 ![Preview](assets/preview.png)
 
 A light Omarchy theme built from the colours of two Audi quattro race cars:
-a cool grey background taken from the body panels, anthracite as foreground,
-and Audi Sport red as the single saturated accent. Every other hue is
-desaturated so the red stays the leading colour.
+a white background, anthracite as foreground, and Audi Sport red as the single
+saturated accent. Every other hue is desaturated so the red stays the leading
+colour.
 
 The dark counterpart is
 [omarchy-quattro-theme](https://github.com/AlexZeitler/omarchy-quattro-theme).
