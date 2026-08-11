@@ -1,0 +1,27 @@
+{
+  "name": "quattro-light-theme",
+  "displayName": "Quattro Light Theme",
+  "description": "Light color theme based on the 1989 Audi 90 quattro IMSA GTO: cool grey background from the car body, anthracite foreground, accents in Audi Sport red",
+  "publisher": "alexanderzeitler",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexZeitler/omarchy-quattro-light-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Quattro Light",
+        "uiTheme": "vs",
+        "path": "./themes/quattro-light-color-theme.json"
+      }
+    ]
+  }
+}
