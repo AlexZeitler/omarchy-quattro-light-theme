@@ -24,6 +24,10 @@ Click a thumbnail to open the wallpaper in full resolution.
 
 [![Audi 90 quattro IMSA GTO](assets/audi-90-imsa-gto-thumb.jpg)](backgrounds/audi%2090%20quattro%20imsa%20gto.jpg)
 
+### Audi 90 quattro IMSA GTO, exhaust flame
+
+[![Audi 90 quattro IMSA GTO with an exhaust flame](assets/audi-quattro-gto-flames-thumb.jpg)](backgrounds/audi%20quattro%20gto%20flames.png)
+
 ### Audi Sport quattro
 
 [![Audi Sport quattro](assets/audi-sport-quattro-thumb.jpg)](backgrounds/audi%20sport%20quattro.png)
