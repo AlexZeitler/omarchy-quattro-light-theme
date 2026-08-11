@@ -33,6 +33,18 @@ omarchy theme install https://github.com/AlexZeitler/omarchy-quattro-light-theme
 The Audi Sport red is not an approximation. Measured on the rear panel of the
 Sport quattro, the paint reads `#CB0214`.
 
+## Wallpapers
+
+Click a thumbnail to open the wallpaper in full resolution.
+
+### Audi 90 quattro IMSA GTO
+
+[![Audi 90 quattro IMSA GTO](assets/audi-90-imsa-gto-thumb.jpg)](backgrounds/audi%2090%20quattro%20imsa%20gto.jpg)
+
+### Audi Sport quattro
+
+[![Audi Sport quattro](assets/audi-sport-quattro-thumb.jpg)](backgrounds/audi%20sport%20quattro.png)
+
 ## VS Code
 
 The repository ships a VS Code colour theme under `vscode-extension/`.
@@ -82,18 +94,6 @@ To drop the hook entirely, remove the symlink and run it once by hand:
 rm ~/.config/omarchy/hooks/theme-set.d/gtk
 ~/.config/omarchy/themes/quattro-light/hooks/gtk --remove
 ```
-
-## Wallpapers
-
-Click a thumbnail to open the wallpaper in full resolution.
-
-### Audi 90 quattro IMSA GTO
-
-[![Audi 90 quattro IMSA GTO](assets/audi-90-imsa-gto-thumb.jpg)](backgrounds/audi%2090%20quattro%20imsa%20gto.jpg)
-
-### Audi Sport quattro
-
-[![Audi Sport quattro](assets/audi-sport-quattro-thumb.jpg)](backgrounds/audi%20sport%20quattro.png)
 
 ## License
 
