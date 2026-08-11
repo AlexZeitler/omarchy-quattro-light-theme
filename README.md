@@ -42,6 +42,28 @@ it on its own:
 code --install-extension alexanderzeitler.quattro-light-theme
 ```
 
+## GTK
+
+Omarchy copies `gtk.css` into `~/.config/omarchy/current/theme` but never
+deploys it. GTK reads `~/.config/gtk-3.0/gtk.css` and
+`~/.config/gtk-4.0/gtk.css` and nothing else, so out of the box the GTK
+colours never reach Nautilus or the GTK file dialogs.
+
+The repository ships a hook that closes the gap. Link it once:
+
+```bash
+mkdir -p ~/.config/omarchy/hooks/theme-set.d
+ln -s ~/.config/omarchy/themes/quattro-light/hooks/gtk \
+  ~/.config/omarchy/hooks/theme-set.d/gtk
+```
+
+From then on every theme switch writes the GTK colours of whichever theme you
+picked, not just this one. The hook only touches the section between its own
+markers, so anything you wrote into those files yourself survives. Switching
+to a theme without a `gtk.css` removes the section again.
+
+To undo it, remove the symlink and run `hooks/gtk --remove` once.
+
 ## Wallpapers
 
 Click a thumbnail to open the wallpaper in full resolution.
