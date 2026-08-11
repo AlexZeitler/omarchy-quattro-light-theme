@@ -27,7 +27,7 @@
 /* Adwaita color overrides (libadwaita / GTK4) */
 @define-color accent_bg_color @blue;
 @define-color accent_fg_color @background;
-@define-color accent_color @cyan;
+@define-color accent_color @blue;
 
 @define-color window_bg_color @background;
 @define-color window_fg_color @foreground;

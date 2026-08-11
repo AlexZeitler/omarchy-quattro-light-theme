@@ -46,7 +46,7 @@
 /* Adwaita Color Overrides */
 @define-color accent_bg_color @blue;
 @define-color accent_fg_color @bright_white;
-@define-color accent_color @cyan;
+@define-color accent_color @blue;
 
 @define-color window_bg_color @background;
 @define-color window_fg_color @foreground;
