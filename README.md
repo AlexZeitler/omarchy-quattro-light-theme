@@ -47,9 +47,16 @@ code --install-extension alexanderzeitler.quattro-light-theme
 Omarchy copies `gtk.css` into `~/.config/omarchy/current/theme` but never
 deploys it. GTK reads `~/.config/gtk-3.0/gtk.css` and
 `~/.config/gtk-4.0/gtk.css` and nothing else, so out of the box the GTK
-colours never reach Nautilus or the GTK file dialogs.
+colours never reach Nautilus or the GTK file dialogs. Nautilus keeps whatever
+background it had before, here the cream `#F8F6EF` of an earlier theme:
 
-The repository ships a hook that closes the gap. Link it once:
+![Nautilus without the hook](assets/gtk-without-hook.png)
+
+With the hook, the window takes the theme background `#E9ECEC`:
+
+![Nautilus with the hook](assets/gtk-with-hook.png)
+
+Link the hook once:
 
 ```bash
 mkdir -p ~/.config/omarchy/hooks/theme-set.d
@@ -62,7 +69,18 @@ picked, not just this one. The hook only touches the section between its own
 markers, so anything you wrote into those files yourself survives. Switching
 to a theme without a `gtk.css` removes the section again.
 
-To undo it, remove the symlink and run `hooks/gtk --remove` once.
+### Going back
+
+No theme shipped with Omarchy carries a `gtk.css`. Switching to one of them
+therefore removes the section on its own, and GTK falls back to whatever was
+in the file before.
+
+To drop the hook entirely, remove the symlink and run it once by hand:
+
+```bash
+rm ~/.config/omarchy/hooks/theme-set.d/gtk
+~/.config/omarchy/themes/quattro-light/hooks/gtk --remove
+```
 
 ## Wallpapers
 
