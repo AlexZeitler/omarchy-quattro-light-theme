@@ -4,10 +4,10 @@
  */
 
 /* Dynamic color palette from Aether */
-@define-color background #E9ECEC;
+@define-color background #FFFFFF;
 @define-color foreground #1E1F24;
 
-@define-color black #E9ECEC;
+@define-color black #FFFFFF;
 @define-color red #9E1B1F;
 @define-color green #2F6248;
 @define-color yellow #7A5F14;

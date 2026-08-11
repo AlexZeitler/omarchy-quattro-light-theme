@@ -9,17 +9,17 @@ cursor = "#1E1F24"
 
 # Primary colors
 foreground = "#1E1F24"
-background = "#E9ECEC"
+background = "#FFFFFF"
 
 # Selection colors
-selection_foreground = "#E9ECEC"
+selection_foreground = "#FFFFFF"
 selection_background = "#1E1F24"
 
 # Background shades
-bg = "#E9ECEC"
-lighter_bg = "#DFE3E4"
-dark_bg = "#D6DBDC"
-darker_bg = "#C4CDCE"
+bg = "#FFFFFF"
+lighter_bg = "#F4F7F7"
+dark_bg = "#EBEFF0"
+darker_bg = "#DCE4E5"
 
 # Foreground shades
 fg = "#1E1F24"
@@ -48,7 +48,7 @@ bright_magenta = "#B04A57"
 bright_cyan = "#52889A"
 
 # Normal colors (ANSI 0-7)
-color0 = "#E9ECEC"
+color0 = "#FFFFFF"
 color1 = "#9E1B1F"
 color2 = "#2F6248"
 color3 = "#7A5F14"

@@ -1,8 +1,8 @@
 local c = {
-  bg         = "#E9ECEC",
-  dark_bg    = "#D6DBDC",
-  darker_bg  = "#C4CDCE",
-  lighter_bg = "#DFE3E4",
+  bg         = "#FFFFFF",
+  dark_bg    = "#EBEFF0",
+  darker_bg  = "#DCE4E5",
+  lighter_bg = "#F4F7F7",
 
   fg         = "#1E1F24",
   dark_fg    = "#121317",
@@ -29,10 +29,10 @@ local c = {
   accent               = "#C81017",
   cursor               = "#1E1F24",
   foreground           = "#1E1F24",
-  background           = "#E9ECEC",
-  selection            = "#D3D9DA",
+  background           = "#FFFFFF",
+  selection            = "#E8EDEE",
   selection_foreground = "#1E1F24",
-  selection_background = "#D3D9DA",
+  selection_background = "#E8EDEE",
 }
 
 -- Lualine bekommt ein eigenes Theme. Aether nimmt sonst yellow fuer den
@@ -69,6 +69,12 @@ return {
     priority = 1000,
     opts = {
       colors = c,
+      -- The backdrop Snacks lays behind a float defaults to dark_bg. On a
+      -- white theme that reads as a grey frame around the float, so it takes
+      -- the background instead.
+      on_highlights = function(hl, colors)
+        hl.SnacksBackdrop = { bg = colors.bg }
+      end,
     },
   },
   {

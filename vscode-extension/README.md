@@ -11,7 +11,7 @@ Omarchy theme selects this VS Code theme automatically.
 
 | Role       | Colour    | Source in the photographs |
 |------------|-----------|---------------------------|
-| Background | `#E9ECEC` | body panels in the light  |
+| Background | `#FFFFFF` | body panels in the light  |
 | Foreground | `#1E1F24` | anthracite of the livery  |
 | Accent     | `#C81017` | Audi Sport red            |
 | Green      | `#2F6248` | pines along the hillside  |

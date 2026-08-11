@@ -20,7 +20,8 @@ omarchy theme install https://github.com/AlexZeitler/omarchy-quattro-light-theme
 
 | Role       | Colour    | Source in the photographs |
 |------------|-----------|---------------------------|
-| Background | `#E9ECEC` | body panels in the light  |
+| Background | `#FFFFFF` | white, no source          |
+| Surfaces   | `#DCE4E5` | BBS wheels                |
 | Foreground | `#1E1F24` | anthracite of the livery  |
 | Accent     | `#C81017` | Audi Sport red            |
 | Red        | `#9E1B1F` | livery in shadow          |
@@ -52,7 +53,7 @@ background it had before, here the cream `#F8F6EF` of an earlier theme:
 
 ![Nautilus without the hook](assets/gtk-without-hook.png)
 
-With the hook, the window takes the theme background `#E9ECEC`:
+With the hook, the window takes the background of the theme you picked:
 
 ![Nautilus with the hook](assets/gtk-with-hook.png)
 

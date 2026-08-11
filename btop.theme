@@ -1,5 +1,5 @@
 # Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]="#E9ECEC"
+theme[main_bg]="#FFFFFF"
 
 # Main text color
 theme[main_fg]="#1E1F24"
@@ -13,9 +13,9 @@ theme[hi_fg]="#C81017"
 # Background color of selected item in processes box. #1E1F24 maps to
 # the foreground role in aether (terminal selection wants inverted contrast),
 # which renders as plain white on dark themes - indistinguishable from the
-# main text. #DFE3E4 gives a subtle highlight that still reads on a
+# main text. #F4F7F7 gives a subtle highlight that still reads on a
 # dark background and is invisible-but-harmless on light backgrounds.
-theme[selected_bg]="#DFE3E4"
+theme[selected_bg]="#F4F7F7"
 
 # Foreground color of selected item in processes box. Use #1E1F24 so
 # the row text stays readable on the lighter_bg highlight; the previous
@@ -32,7 +32,7 @@ theme[graph_text]="#1E1F24"
 
 # Background color of the percentage meters. Same fix as selected_bg - the
 # previous #1E1F24 collapsed to the main fg.
-theme[meter_bg]="#DFE3E4"
+theme[meter_bg]="#F4F7F7"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text.
 # Use #3F6E7A for a distinct accent instead of #3C3C42 which capped to white.
